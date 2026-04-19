@@ -40,6 +40,7 @@ src/
 ├── 11_prepare_evaluation_files.py   # Prepare human evaluation datasets
 ├── 12_compute_kappa_main.py         # Cohen’s kappa for main variables
 └── 13_compute_kappa_caption_category.py # Kappa for caption label categories
+└── README.md                      
 
 data/
 ├── sample_raw_like/                  # Simulated raw metadata
