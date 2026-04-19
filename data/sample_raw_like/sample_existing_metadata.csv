@@ -1,0 +1,9 @@
+sample_id,caption_text,hashtags,status_note
+vid_001,"default platform caption with no meaningful user text","",missing_json
+vid_002,"short caption including identity tags and a statement of being an adult","wlw,la,adult",ok
+vid_003,"affectionate caption describing a romantic interaction between two women","wlw,la,romance",ok
+vid_004,"caption combining dance trend tags with a subtle identity reference","dance,wlw,trending",ok
+vid_005,"lighthearted daily-life caption with emojis and relationship hints","wlw,daily_life,emoji",ok
+vid_006,"caption focused on friendship or intimacy with ambiguous identity cues","friendship,intimacy",ok
+vid_007,"caption emphasizing aesthetic style with minimal textual identity markers","aesthetic,style",ok
+......
