@@ -59,8 +59,17 @@ data/
 └── README.md
 
 results/
-├── figures/                         # Final visualizations
-└── tables/                          # Summary tables
+├── figures/                         # Final visualizations of key findings
+│   ├── fig1_label_distribution.png
+│   ├── fig2_label_diversification.png
+│   ├── fig3_engagement_comparison.png
+│   └── README.md                    # Figure descriptions and interpretations
+│
+├── tables/                          # Summary tables and evaluation results
+│   ├── table1_kappa_summary.csv
+│   └── README.md                    # Table descriptions and explanations
+│
+└── README.md                        # Overview of results outputs
 
 archive/
-└── notes_on_private_or_omitted_material.md
+└── repair_exclude_to_keep.py
