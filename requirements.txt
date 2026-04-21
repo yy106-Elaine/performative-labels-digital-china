@@ -1,0 +1,13 @@
+```text
+# Data Processing
+pandas
+numpy
+
+# AI & Cloud
+google-cloud-aiplatform
+
+# Scraping & Automation
+playwright
+
+# Utilities
+python-dotenv
