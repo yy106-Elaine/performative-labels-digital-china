@@ -67,9 +67,9 @@ The pipeline follows a multi-stage workflow:
    ```
 
 2. **Install dependencies:**
-  ```bash
+   ```bash
    pip install -r requirements.txt
-  ```
+   ```
 
 3. **Credentials**
    This project uses Vertex AI for multimodal analysis. Ensure you have authenticated your environment:
