@@ -20,8 +20,35 @@ The project builds a full data pipeline to:
 - Evaluate coding reliability using human annotation and Cohen’s kappa  
 
 The analysis focuses on how labeling practices shift from traditional T/P/H categories toward more flexible and performative identity expressions.
-
+This project demonstrates how AI-assisted, multimodal pipelines can be used to scale qualitative cultural analysis into structured, reproducible computational research.
 ---
+
+## Data Flow
+
+The pipeline follows a multi-stage workflow:
+
+1. **Data Collection**  
+   Scrape Douyin video URLs using identity-related keywords.
+
+2. **Metadata Extraction**  
+   Extract captions and hashtag information.
+
+3. **Filtering**  
+   - Rule-based keyword filtering  
+   - Multimodal refinement using AI (Gemini)
+
+4. **Coding**  
+   - Visual identity coding (Vertex AI)  
+   - Caption-based identity classification
+
+5. **Data Integration**  
+   Merge coding outputs with engagement metrics (likes, comments).
+
+6. **Dataset Construction**  
+   Build final analytical dataset.
+
+7. **Validation**  
+   Conduct human annotation and compute Cohen’s kappa for reliability.
 
 ## Repository Structure
 
@@ -74,3 +101,9 @@ results/
 
 archive/
 └── repair_exclude_to_keep.py
+
+## Key Findings
+
+- Identity labeling appears in over 50% of videos, functioning as a routine communicative system.
+- Labeling practices have diversified beyond traditional T/P/H categories.
+- Videos with identity signals show higher engagement, suggesting labeling functions as algorithmic capital.
